@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #fdf0d5; /* Soft background tone */
+    --secondary-color: #003049; /* Bold contrast for headings and key elements */
+    --accent1-color: #ffb703; /* Vibrant for highlights and buttons */
+    --accent2-color: #fb8500; /* Warm for emphasis and hover effects */
+  }
+  
+  body {
+    font-family: 'Taviraj', serif;
+    color: var(--secondary-color); /* Text in bold secondary color */
+    background-color: var(--primary-color); /* Light primary color for background */
+    max-width: 1200px; /* Limiting page width */
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Underdog', sans-serif;
+    color: var(--secondary-color); /* Bold headings for contrast */
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: var(--secondary-color); /* Text color to match the design */
+  }
+  
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto; /* Maintain image aspect ratio */
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: var(--accent1-color); /* Vibrant color for standout effect */
+    font-size: 3rem;
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background-color: rgba(253, 240, 213, 0.9); /* Semi-transparent primary color */
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    font-family: 'Underdog', sans-serif;
+    font-weight: 400;
+    color: var(--accent1-color);
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--accent2-color); /* Hover effect for links */
+  }
+  
+  .sociallinks a img {
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+  }
+  
+  footer {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+  }

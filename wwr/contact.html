@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Underdog:wght@400;700;900&family=Taviraj:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Rafting Travel</title>
+</head>
+<body>
+  <header>
+        <div class="logo-box">
+            <img src="images/z-raftingcompas.jpg" alt="logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+  </header>
+  <main>
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <address>
+                <strong>Rafting Travel Company</strong><br>
+                123 River Run Rd<br>
+                Boise, ID 83702<br>
+                Phone: (208) 555-1234<br>
+                Email: <a href="mailto:info@raftingtravel.com">info@raftingtravel.com</a>
+            </address>   
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.510003982858!2d-116.20345168450438!3d43.61501897912209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8e5b1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sBoise%2C%20ID!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus" 
+                    width="300" 
+                    height="200" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>     
+        <section class="employee-profiles">
+                <h2>Meet Our Team</h2>    
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/leadguide.webp" alt="Emily, Lead Guide">
+                    <figcaption>Emily – Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/safetyinstructor.webp" alt="Carlos, Safety Instructor">
+                    <figcaption>Carlos – Safety Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventurecoordinator.webp" alt="Sophie, Adventure Coordinator">
+                    <figcaption>Sophie – Adventure Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+        <form class="contact-form" action="#" method="post">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" required>
+
+            <fieldset>
+                <legend>Purpose of your message:</legend>
+                <label>
+                    <input type="radio" name="purpose" value="General Inquiry" required>
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="Reservation Question">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="Website Suggestion">
+                    Website Suggestion
+                </label>
+            </fieldset>
+
+            <label for="usermessage">Message:</label>
+            <textarea id="usermessage" name="usermessage" rows="5" required></textarea>
+
+            <label class="checkbox-label">
+                <input type="checkbox" name="subscribe" value="yes">
+                Please subscribe me to the monthly newsletter
+            </label>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+  </main>
+  <footer>
+        <p>&copy; 2025 - Rafting Travel - Paul Jean Julien</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/1_Facebook_colored_svg_copy-128.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/X-128.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_icon-instagram_buttoninstegram-128.webp" alt="Instagram">
+            </a>
+        </nav>
+  </footer>
+</body>
+</html>
